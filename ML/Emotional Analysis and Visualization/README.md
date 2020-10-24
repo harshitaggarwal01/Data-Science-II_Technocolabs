@@ -1,1 +1,6 @@
+# Emotional Analysis and Visualization
+Human emotion recognition plays an important role in the interpersonal relationship. The automatic recognition of emotions has been an active research topic from early eras. Therefore, there are several advances made in this field. Emotions are reflected from speech, hand, and gestures of the body and through facial expressions. Hence extracting and understanding of emotion has a high importance of the interaction between human and machine communication. 
 
+In this project, I have developed an emotion recognition system with the help of deep learning.
+Firstly we use face detection using OpenCV library and Haarcascades face embeddings. We extracted the cropped face and ran our model on it. Our model has been trained on the FER2013 dataset which has 7 emotions in the file. We have used a CNN model. Our model achieved a 66% accuracy.
+We then used OpenCV to make this system real-time, i.e., we used a webcam implementation to capture and display real-time emotions. The user can click the key “Q” anytime during the program to terminate the program. If the user presses the key “M” then the program will show a bar graph and a pie chart of all the emotions detected with their intensity at that moment. This is done by using matplotlib library for visualization.
